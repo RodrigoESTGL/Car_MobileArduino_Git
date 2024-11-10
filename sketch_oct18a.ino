@@ -35,8 +35,8 @@ void setup() {
   analogWrite(engineTD, speed_zero);
   analogWrite(engineFE, speed_zero);
   analogWrite(engineTE, speed_zero);
-   myservo.attach(4);
-   myservo.write(30);
+  myservo.attach(4);
+  myservo.write(30);
  
 }
 
