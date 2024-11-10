@@ -31,10 +31,7 @@ void setup() {
   pinMode(engineTD, OUTPUT);
   pinMode(engineFE, OUTPUT);
   pinMode(engineTE, OUTPUT);
-  analogWrite(engineFD, speed_zero);
-  analogWrite(engineTD, speed_zero);
-  analogWrite(engineFE, speed_zero);
-  analogWrite(engineTE, speed_zero);
+  stop_engines();
   myservo.attach(4);
   myservo.write(30);
  
